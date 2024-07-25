@@ -28,7 +28,7 @@ function Projects() {
               title="PetPals"
               description="This website is designed to facilitate the adoption of pets, such as dogs and cats, from shelters or rescue organizations. The platform serves as a digital marketplace where potential adopters can browse and select pets, shelters can list available pets, and donors can contribute to support animal welfare."
               ghLink="https://github.com/Sartik0709/Panasonic-Pioneers_062"
-              demoLink="pet-petpals.netlify.app/"
+              demoLink="https://pet-petpals.netlify.app/"
             />
           </Col>
 
@@ -50,7 +50,7 @@ function Projects() {
               title="Nobroker"
               description="This project is a clone of the homepage of NoBroker-Services. This project aims to recreate the visual layout and design and functionality of the original website's homepage."
               ghLink="https://github.com/Sartik0709/Compiler-Chintan-2345"
-              demoLink="imaginative-pixie-6e83c9.netlify.app/"              
+              demoLink="https://imaginative-pixie-6e83c9.netlify.app/"              
             />
           </Col>
 
