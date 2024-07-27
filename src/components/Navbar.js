@@ -84,17 +84,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-        
-                // as={Link}
-                target="_blank"
-                href={"https://drive.google.com/file/d/1qMRYniDU4bAzCZtXblt-NBxms6x0ri3R/view?usp=sharing"}
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }}  /> Resume
-              </Nav.Link>
-            </Nav.Item>
+              <Nav.Item>
+                <Nav.Link
+          
+                  // as={Link}
+                  target="_blank"
+                  href={"https://drive.google.com/file/d/1QrUpS-dHKflAjtoZHuT1u9dafYTdKDCM/view?usp=sharing"}
+                  onClick={() => updateExpanded(false)}
+                >
+                  <CgFileDocument style={{ marginBottom: "2px" }}  /> Resume
+                </Nav.Link>
+              </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
