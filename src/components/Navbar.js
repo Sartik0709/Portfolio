@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 // import { ImBlog } from "react-icons/im";
+// import pdf from "../Assets/../Assets/Sartik-Sharma-Resume.pdf";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -85,11 +86,13 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
+        
+                // as={Link}
+                target="_blank"
+                href={"https://drive.google.com/file/d/1qMRYniDU4bAzCZtXblt-NBxms6x0ri3R/view?usp=sharing"}
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }}  /> Resume
               </Nav.Link>
             </Nav.Item>
 
